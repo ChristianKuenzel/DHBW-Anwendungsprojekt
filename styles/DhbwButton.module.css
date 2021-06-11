@@ -1,0 +1,12 @@
+.dhbwButton{
+    width: 105px;
+    height: 30px;
+    border: 2px solid #FF1A1A;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #5E5E5E;
+}
+
+.dhbwButton p{
+    text-align: center;
+    color:black;
+}

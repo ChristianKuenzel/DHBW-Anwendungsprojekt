@@ -4,11 +4,11 @@ import { GoSearch } from 'react-icons/go';
 
 export default function Searchbar() {
     return (
-        <Box borderWidth="1px" borderRadius="lg" maxWidth="200px">
+        <Box borderWidth="1px" borderRadius="lg" maxWidth="200px" borderColor={"#5F6971"}>
             <HStack
-            divider={<StackDivider borderColor="gray.200" />}
+            divider={<StackDivider borderColor={"#5F6971"} />}
             >
-                <Center>
+                <Center marginLeft={2}>
                     <GoSearch />
                 </Center>
                 <Input variant="unstyled" placeholder="Suchen..."/>

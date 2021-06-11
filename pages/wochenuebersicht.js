@@ -4,7 +4,7 @@ import Texteingabe from '../components/Texteingabe';
 
 export default function wochenübersicht() {
     return (
-        <Searchbar/>
+        <Texteingabe placeholder="eingeben" width="100px" size="sm"/>
        
         
 

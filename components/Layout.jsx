@@ -4,9 +4,11 @@ import Nav from './Nav';
 const Layout = ({ children }) => {
     return (
         <>
-            <Nav />
-            <Flex direction="column" padding="8">
-                {children}
+            <Flex direction="row">
+                <Nav />
+                <Flex direction="column" padding="8">
+                    {children}
+                </Flex>
             </Flex>
         </>
     );

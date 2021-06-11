@@ -5,12 +5,16 @@ const Nav = () => {
     return (
         <nav className={navStyles.nav}>
             <ul>
+                <ul>
                 <li>
                     <Link href="/">Start</Link>
                 </li>
+                </ul>
+                <ul>
                 <li>
                     <Link href="/wochenuebersicht">Wochenübersicht</Link>
                 </li>
+                    </ul>
                 <li>
                     <Link href="/kalender">Kalender</Link>
                 </li>

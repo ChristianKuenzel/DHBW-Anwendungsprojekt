@@ -1,7 +1,9 @@
 .nav {
-    height: 50px;
+    min-height: 100vh;
+    height: 100vh;
+    width: 20vh;
     padding: 10px;
-    background: rgb(21, 100, 190);
+    background: rgb(255, 0, 0);
     color: #fff;
     display: flex;
     align-items: center;
@@ -10,11 +12,12 @@
 
 .nav ul {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
 }
 
 .nav ul li a {
-    margin: 5px 15px;
+    margin: 5px 0px;
 }

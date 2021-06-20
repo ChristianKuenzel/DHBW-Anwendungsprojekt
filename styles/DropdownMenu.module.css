@@ -1,0 +1,13 @@
+.menu {
+    padding: .2em;
+}
+
+.item {
+    padding: .5em;
+    border-radius: 2em;
+}
+
+.item:hover {
+    background-color:rgb(255, 181, 181);
+    padding: .5em;
+}

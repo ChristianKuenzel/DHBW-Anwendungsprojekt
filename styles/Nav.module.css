@@ -1,0 +1,29 @@
+.nav {
+    min-height: 100vh;
+    width: 20vh;
+    padding: 10px;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.nav ul li a {
+    margin: 10px ;
+    border-bottom-style: solid;
+    outline: #996699;
+}
+
+.nav ul li a:hover {background-color: #5E5E5E}
+
+.nav ul li a:active { background-color: #996699 }
+

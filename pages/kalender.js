@@ -5,7 +5,7 @@ export default function wochenübersicht() {
     return ( 
         <div>
             <Textfeld />
-            <Datepicker placeholderText="Klicken um ein Datum und Uhrzeit anzugeben"/>
+            <Datepicker />
         </div>
     )
 }

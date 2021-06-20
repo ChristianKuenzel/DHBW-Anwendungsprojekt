@@ -3,16 +3,6 @@ import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
 
-const Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
 const PopupWrapper = styled.div`
   width: 696px;
   height: auto;
@@ -113,7 +103,7 @@ export const Popup = ({ showPopup, setShowPopup }) => {
   return (
     <>
       {showPopup ? (
-        <Background onClick={closePopup} ref={PopupRef}>
+
           <animated.div style={animation}>
             <PopupWrapper showPopup={showPopup}>
               <PopupContent>
@@ -135,7 +125,7 @@ export const Popup = ({ showPopup, setShowPopup }) => {
               />
             </PopupWrapper>
           </animated.div>
-        </Background>
+
       ) : null}
     </>
   );

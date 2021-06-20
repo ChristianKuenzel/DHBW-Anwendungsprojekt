@@ -18,5 +18,12 @@
 }
 
 .nav ul li a {
-    margin: 5px 0px;
+    margin: 10px ;
+    border-bottom-style: solid;
+    outline: #996699;
 }
+
+.nav ul li a:hover {background-color: #5E5E5E}
+
+.nav ul li a:active { background-color: #996699 }
+

@@ -12,12 +12,15 @@ Content undergoes the terms of chosen licenses. See GitHub for more:
 https://github.com/ChristianKuenzel/DHBW-Anwendungsprojekt
 */
 
-
-
 .style {
     padding: 50px;
     text-align: center;
+
     font-size: 50px;
-    /*font-family: ;*/
+    /*font-family:*/
+    /*font-weight:*/
+    /*text-shadow:*/
+    /*letter-spacing:*/
+
     color: #5E5E5E;
 }
